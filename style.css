@@ -1,27 +1,50 @@
 body {
-    background-color: lightblue;
+    background-color: #73DEDA;
   }
   
   h1 {
-    color: white;
+    background-color: #0DFAAB;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
 
   }
 
-  .center {
-    text-align: center;
-  }
-  
   p {
     font-family: verdana;
     font-size: 20px;
   }
 
-#para {
+  /* Class */
+
+  .fonte-cor {
+    color: #ACCCFC;
+  }
+
+  .fonte-preta {
+    color:rgb(0, 0, 0)
+  }
+
+  .fonte-azul-verde { 
+    color:#00C1F4
+   
+  }
+
+  .fonte-azul-escuro {
+    color: #0D4AFA;
+  }
+
+  .fonte-verde {
+    color: green;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  /* ID */
+  #para {
     font-family: verdana;
     font-size: 20px;
-}
+  }
 
-.fonte-verde {
-  color: green;
-}
 
