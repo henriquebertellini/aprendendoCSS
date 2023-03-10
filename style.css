@@ -4,6 +4,10 @@ body {
   
   h1 {
     color: white;
+
+  }
+
+  .center {
     text-align: center;
   }
   
@@ -12,8 +16,12 @@ body {
     font-size: 20px;
   }
 
-p {
-    color: red;
+#para {
     font-family: verdana;
     font-size: 20px;
 }
+
+.fonte-verde {
+  color: green;
+}
+
