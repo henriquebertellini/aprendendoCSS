@@ -1,11 +1,14 @@
+/*
 body {
     background-color: #73DEDA;
   }
+  */
   
   h1 {
     background-color: #0DFAAB;
     color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);
+    opacity: 1;
 
   }
 
@@ -40,6 +43,16 @@ body {
   .center {
     text-align: center;
   }
+
+  .fonte-branca {
+    color: white;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    border-width: 10px 4px;
+    border-radius: 50px;
+    padding-top: 20px;
+    margin: 20px;
+  }
   
   /* ID */
   #para {
@@ -47,4 +60,11 @@ body {
     font-size: 20px;
   }
 
+    body {
+      background-image: url("img/pinkfloid.jpg");
+    }
+
+    .fundo-preto {
+      background-color: rgb(158, 158, 158);
+    }
 
