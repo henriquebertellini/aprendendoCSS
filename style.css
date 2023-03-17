@@ -3,19 +3,24 @@ body {
     background-color: #73DEDA;
   }
   */
+
+  body {
+    /* font-family: "Sofia", sans-serif; */ 
+    font-family: 'Lobster', cursive; 
+  }
   
   h1 {
-    background-color: #0DFAAB;
+    background-color: #8c7bfc;
     color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);
     opacity: 1;
 
   }
 
-  p {
+ /* p {
     font-family: verdana;
     font-size: 20px;
-  }
+  } */
 
   /* Class */
 
@@ -46,25 +51,71 @@ body {
 
   .fonte-branca {
     color: white;
-    border-style: double;
+    
+  }
+  
+  /* ID */
+  /*#para {
+    font-family: verdana;
+    font-size: 20px;
+  } */
+
+    body {
+      background-image: url("img/fundo.jpg");
+    }
+
+    .fundo {
+      background-color: rgb(85, 27, 150);
+    }
+
+    .justificado {
+      text-align: justify;
+    }
+
+    .sombra {
+      text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    }
+
+    .linhaembaixo {
+      text-decoration: underline;
+    }
+
+    .borda {
+      border-style: double;
     border-color: rgb(0, 0, 0);
     border-width: 10px 4px;
     border-radius: 50px;
     padding-top: 20px;
     margin: 20px;
-  }
-  
-  /* ID */
-  #para {
-    font-family: verdana;
-    font-size: 20px;
-  }
-
-    body {
-      background-image: url("img/pinkfloid.jpg");
     }
 
-    .fundo-preto {
-      background-color: rgb(158, 158, 158);
+    .border {
+      border-style: dashed;
+    border-color: rgb(0, 0, 0);
+    border-width: 4px 4px;
+    border-radius: 50px;
+    margin: 20px;
+
     }
+
+    .capitalize {
+      text-transform: capitalize;
+    }
+
+    .link {
+      text-align: center;
+      font-size: 30px;
+      text-transform: lowercase;
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+    }
+    .link a {
+      text-decoration: none;
+      color: red;
+      text-shadow: 2px 2px 5px black;
+    }
+    .fontefamily {
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
 
